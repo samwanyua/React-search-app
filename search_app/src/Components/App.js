@@ -4,8 +4,6 @@ import { useState } from "react";
 function App() {
   const [query, setQuery] = useState("");
 
-  // console.log(query)
-  // console.log(Users.filter((user) => user.first_name.toLowerCase().includes('fe')))
   return (
     <div className="App">
       <input type="text" className="search" placeholder='Search...' onChange={(e) => setQuery(e.target.value)}/>
